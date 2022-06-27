@@ -190,9 +190,11 @@ header .follow a:hover {
 
 .home .image {
     margin-top: 30px;
-    flex:0 0 30px;
+    flex:0 0 30%;
 }
-
+.home .container{
+    flex:0 0 50%;
+}
 .home .image img {
     background-color: rgb(119, 207, 241);
     border: 5px solid #6d035a;
@@ -985,5 +987,10 @@ header .follow a:hover {
 @media (max-width: 18px) {
     .typewriter {
         font-size: 20px;
+    }
+}
+@media (max-width: 473px){
+    .home .container{
+        flex:0 0 100%;
     }
 }
